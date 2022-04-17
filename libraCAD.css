@@ -1,0 +1,375 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: cursive;
+  line-height: 1.7;
+}
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #baee7e;
+  color: black;
+  padding: 10px;
+}
+.navBar ul {
+  display: flex;
+  list-style: none;
+}
+.list {
+  list-style: none;
+}
+.navBar ul li {
+  margin-right: 30px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.navBar ul li:hover {
+  cursor: pointer;
+  color: white;
+}
+.navBar .leftLogo img {
+  width: 20vh;
+  /* height: 30px; */
+  margin-left: 10px;
+}
+.navBar .leftLogo img:hover {
+  cursor: pointer;
+}
+/* header nav */
+.header {
+  margin-top: 10px;
+}
+
+.header .navBar2 .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #70a732;
+  padding: 20px;
+  color: white;
+  /* font-weight: bold; */
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  text-align: center;
+}
+.header .navBar2 .container ul li:hover {
+  cursor: pointer;
+  color: black;
+}
+/* main section */
+
+.main-section {
+  display: flex;
+  /* align-items: center; */
+}
+.main-section .content {
+  padding: 60px;
+  font-weight: bold;
+}
+.main-section .content h1 {
+  color: #70a732;
+  font-size: 40px;
+  letter-spacing: 1.5px;
+}
+.main-section .content h2 {
+  color: #70a732;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+}
+.main-section .content p {
+  font-size: 18px;
+  letter-spacing: 1.5px;
+}
+.main-section .img {
+  padding: 30px;
+  margin-right: 50px;
+}
+/* main second section */
+.second-section{
+  display: flex;
+  background-color: #70a732;
+  color: white;
+
+}
+
+.second-section img{
+height: 60%;
+margin: 40px 130px;
+padding: 40px;
+}
+.second-section .content2{
+  margin-right: 150px;
+  /* padding: 60px; */
+  /* padding-bottom: 40px; */
+  font-weight: bold;
+  font-size: 20px;
+}
+.second-section .content2 h1{
+  color: black;
+  font-size: 35px;
+}
+.second-section .content2 h2{
+  color: black;
+  font-size: 25px;
+}
+.second-section .content2 strong{
+  color: black;
+  font-size: 25px;
+}
+.second-section .content2 strong:hover{
+  cursor: pointer;
+}
+.second-section .content2 h1:hover{
+  cursor: pointer;
+}
+/* info section */
+.info{
+  padding: 30px;
+}
+.info h1 {
+  text-align: center;
+  font-size: 35px;
+  color: #70a732;
+}
+.info .upper{
+  text-align: center;
+  font-size: 23px;
+  margin-top: 10px;
+}
+.info .rows{
+  display: flex;
+  padding: 50px;
+}
+.info .one{
+  text-align: center;
+  font-size: 20px;
+  padding: 0 15px;
+}
+.info .one h2{
+  color: #4f8b09;
+}
+
+.info .one i:hover{
+color: red;
+}
+
+/* link section */
+.link{
+  background-color: #70a732;
+  color: white;
+}
+.link h1{
+  text-align: center;
+  font-size: 35px;
+  padding: 20px;
+}
+.link .rows2{
+display: flex;
+padding: 10px 120px;
+text-align: center;
+}
+.link .rows2 h2{
+  font-size: 30px;
+}
+.link .rows2 p{
+  font-size: 20px;
+}
+.link .rows2 i:hover{
+  color: red;
+  cursor: pointer;
+}
+.link .rows2 .apple{
+  padding: 15px;
+  font-weight: bold;
+}
+.link .rows2 .window{
+  padding: 15px;
+  font-weight: bold;
+}
+.link .rows2 .linux{
+  /* padding: 0 180px; */
+  font-weight: bold;
+}
+.link .rows2 a{
+  color: black;
+}
+.link .rows2 a:hover{
+  cursor: pointer;
+  color: red;
+}
+/* section lower link */
+.link-lower{
+  text-align: center;
+  padding: 50px 150px;
+}
+.link-lower .github h2{
+font-size: 35px;
+}
+.link-lower .github p strong{
+  font-size: 25px;
+}
+.link-lower .github p{
+  font-size: 20px;
+}
+.link-lower .github a{
+  color: black;
+}
+.link-lower .github a:hover{
+  color:red;
+  cursor: pointer;
+}
+.link-lower .github i:hover{
+  color: red;
+  cursor: pointer;
+}
+/* community section */
+
+.community {
+  padding: 20px 100px;
+}
+.community .upper-portion{
+  text-align: center;
+  padding: 20px 80px;
+}
+.community .upper-portion h1{
+  font-size: 35px;
+  color:#70a732;
+}
+.community .upper-portion p{
+  font-size: 18px;
+}
+.community .upper-portion .highlight{
+  font-size: 20px;
+}
+.community .upper-portion strong:hover{
+cursor: pointer;
+color: #70a732;
+}
+.community .coloum{
+  display: flex;
+  padding: 20px 50px;
+  text-align: center;
+}
+.community .coloum .c-two{
+  /* padding: 0 20px; */
+  margin: 0 20px;
+}
+.community .coloum h2{
+  color: #4f8b09;
+  font-size: 35px;
+}
+.community .coloum p{
+  font-size: 18px;
+}
+.community .coloum a{
+  background-color:#4f8b09;
+  color:white;
+}
+.community .coloum a:hover{
+  cursor: pointer;
+  color:black;
+}
+/* last section */
+
+.last{
+  background-color:#70a732;
+  color: white;
+  padding: 30px 80px;
+}
+.last .heading{
+  text-align: center;
+}
+.last .heading h1{
+  font-size: 35px;
+}
+.last .heading p{
+  font-size: 20px;
+}
+.last .last-one{
+  display: flex;
+}
+.last .last-one h2{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.last .last-one .inner-1{
+  padding: 10px 40px;
+  background-color: #d1e7b7 ;
+  color: black;
+  box-sizing: inherit;
+  font-size: 18px;
+}
+.last .last-one .inner-2{
+  padding: 10px 40px;
+  background-color: #d1e7b7 ;
+  color: black;
+  box-sizing: inherit;
+  font-size: 18px;
+}
+.last .last-one .inner-1 img{
+  width: 50px;
+}
+.last .last-one .inner-2 img{
+  width: 50px;
+}
+.last .last-one .inner-1 strong{
+  color: #4f8b09;
+}
+.last .last-one .inner-2 strong{
+  color: #4f8b09;
+}
+.last .last-one .inner-1 a{
+  font-weight: bold;
+  color: black;
+}
+.last .last-one .inner-2 a{
+  font-weight: bold;
+  color: black;
+}
+.last .last-one .inner-1 a:hover{
+  color: #4f8b09;
+}
+.last .last-one .inner-2 a:hover{
+  color: #4f8b09;
+}
+
+/* footer */
+
+.footer{
+  color:white;
+  background-color: #70a732;
+  padding: 20px 80px;
+  text-align: center;
+  font-size: 20px;
+}
+.footer .div{
+  background-color:white ;
+  padding: 10px;
+  border: solid;
+}
+.footer strong{
+  font-size: 25px;
+}
+.footer a{
+  color: black;
+}
+.footer .member{
+  display: flex;
+  justify-content: space-between;
+}
+.footer .member h3{
+color: black;
+}
+.footer strong{
+  color: red;
+  font-size: 35px;
+}
